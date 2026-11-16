@@ -1,0 +1,10 @@
+name: MalNetTinyFeatures-100
+params:
+  rewriter: phi4-mini
+  ldp: true  # apply LocalDegreeProfile transform to match standard mntf training
+  # process_cfg -- only used on first build, ignored once cached
+  context_length: 16384
+  num_workers: 16
+  embedder_bsz: 32
+  ollama_urls:
+    - http://localhost:8080

@@ -1,0 +1,4 @@
+name: MalNetTinyFeatures+qwen+keepisolated
+params:
+  variant: prune+llm+ldp
+  raw_dir: null  # specify if not using the default path construction logic

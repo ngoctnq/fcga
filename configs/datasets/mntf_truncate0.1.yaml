@@ -1,0 +1,5 @@
+name: MalNetTinyFeatures+qwen+keepisolated
+params:
+  variant: prune+llm+ldp
+  raw_dir: null
+  truncate_ratio: 0.1

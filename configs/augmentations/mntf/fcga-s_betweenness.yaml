@@ -1,0 +1,15 @@
+name: fcga
+params:
+  granularity: subgraph
+  criteria: betweenness
+  mcts_iterations: 4
+  mcts_exploration: 1.41
+  mcts_expand_atoms: 5
+  rewriter: qwen2.5-coder
+  context_length: 32768
+  ollama_urls:
+    - http://localhost:8080
+  embedder: qwen3
+  embedder_bsz: 32
+  num_workers: 64
+  node_budget: 5

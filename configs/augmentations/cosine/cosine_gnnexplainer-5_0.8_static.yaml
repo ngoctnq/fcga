@@ -1,0 +1,16 @@
+name: cosine
+params:
+  cosine_threshold: 0.8
+  granularity: function
+  criteria: gnnexplainer
+  mcts_iterations: 100
+  mcts_exploration: 1.41
+  rewriter: qwen2.5-coder
+  context_length: 32768
+  ollama_urls:
+    - http://localhost:8080
+  embedder: qwen3
+  embedder_bsz: 32
+  num_workers: 16
+  node_budget: 5
+  reaugment: false

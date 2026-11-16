@@ -1,0 +1,9 @@
+mode: finetune
+epochs: 10
+batch_size: 128
+lr: 0.001
+weight_decay: 5e-4
+optimizer: Adam
+augmentation_ratio: 0.2
+params:
+  freeze_base_model: true

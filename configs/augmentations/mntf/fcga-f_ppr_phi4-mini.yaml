@@ -1,0 +1,14 @@
+name: fcga
+params:
+  granularity: function
+  criteria: ppr
+  mcts_iterations: 100
+  mcts_exploration: 1.41
+  rewriter: phi4-mini
+  context_length: 16384
+  ollama_urls:
+    - http://localhost:8080
+  embedder: qwen3
+  embedder_bsz: 32
+  num_workers: 16
+  node_budget: 5

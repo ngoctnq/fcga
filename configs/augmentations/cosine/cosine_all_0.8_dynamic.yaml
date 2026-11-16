@@ -1,0 +1,8 @@
+name: cosine
+params:
+  cosine_threshold: 0.8
+  granularity: function
+  criteria: all
+  num_workers: 16
+  node_budget: -1
+  reaugment: true

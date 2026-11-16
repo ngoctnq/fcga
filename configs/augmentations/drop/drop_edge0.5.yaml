@@ -1,0 +1,4 @@
+name: drop
+params:
+  mode: edge
+  edge_drop_rate: 0.5

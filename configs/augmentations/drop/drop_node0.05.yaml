@@ -1,0 +1,4 @@
+name: drop
+params:
+  mode: node
+  node_drop_rate: 0.05

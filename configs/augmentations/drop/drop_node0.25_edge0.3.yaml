@@ -1,0 +1,5 @@
+name: drop
+params:
+  mode: both
+  node_drop_rate: 0.25
+  edge_drop_rate: 0.3

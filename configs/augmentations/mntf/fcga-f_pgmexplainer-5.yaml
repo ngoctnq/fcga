@@ -1,0 +1,12 @@
+name: fcga
+params:
+  granularity: function
+  criteria: pgmexplainer
+  rewriter: qwen2.5-coder
+  context_length: 32768
+  ollama_urls:
+    - http://localhost:8080
+  embedder: qwen3
+  embedder_bsz: 32
+  num_workers: 16
+  node_budget: 5

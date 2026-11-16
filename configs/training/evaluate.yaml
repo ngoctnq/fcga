@@ -1,0 +1,3 @@
+# evaluate dataset from checkpoint
+mode: evaluate
+batch_size: 128
